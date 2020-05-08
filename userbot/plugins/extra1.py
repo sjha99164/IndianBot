@@ -35,7 +35,7 @@ async def _(event):
 
     if input_str == "chod":
 
-        await event.edit(input_str)
+        await event.edit(land)
 
         animation_chars = [
         
@@ -74,7 +74,7 @@ async def _(event):
 
     if input_str == "sqh":
 
-        await event.edit(input_str)
+        await event.edit(heal)
 
         animation_chars = [
         
@@ -114,7 +114,7 @@ async def _(event):
 
     if input_str == "vquickheal":
 
-        await event.edit(input_str)
+        await event.edit(quick)
 
         animation_chars = [
         
