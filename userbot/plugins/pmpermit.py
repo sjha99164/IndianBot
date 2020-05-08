@@ -13,8 +13,8 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=986477102)\n\n"
-                    "`Hello, This Is` **🇮🇳IndianBot🇮🇳 Security Service.**\n"
+USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=532281165)\n\n"
+                    "`Hello, This Is` **🇮🇳IamShubham🇮🇳 Security Service.**\n"
                     "**I Am Made By A Pro, I Found Ur Way Through "
                     f"{DEFAULTUSER}'s inbox**.\n\n"
                     "`🔶I Am :` **☣HOT🔥**\n\n"
@@ -53,7 +53,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 953414679:
+          if chat.id == 532281165:
             await event.edit("u bitch tryed to block my master, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
@@ -72,7 +72,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 986477102:
+          if chat.id == 532281165:
             await event.edit("Sorry, I Can't Disapprove My Master")
           else:
             if pmpermit_sql.is_approved(chat.id):
@@ -195,7 +195,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(986477102)))
+@bot.on(events.NewMessage(incoming=True, from_users=(532281165)))
 async def hehehe(event):
     if event.fwd_from:
         return
