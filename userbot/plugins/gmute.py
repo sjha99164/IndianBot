@@ -1,5 +1,5 @@
 '''
-ThankYou @pureindialover
+ThankYou @honey66
 '''
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
