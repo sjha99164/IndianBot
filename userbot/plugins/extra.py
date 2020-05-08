@@ -25,7 +25,7 @@ async def leave(e):
 #@register(outgoing=True, pattern="^;__;$")
 async def fun(e):
     t = ";__;"
-    for j in range(10):
+    for j in range(30):
         t = t[:-1] + "_;"
         await e.edit(t)
 
@@ -41,7 +41,7 @@ async def Ooo(e):
 #@register(outgoing=True, pattern="^Oof$")
 async def Oof(e):
     t = "Oof"
-    for j in range(15):
+    for j in range(25):
         t = t[:-1] + "of"
         await e.edit(t)
 
@@ -88,7 +88,7 @@ async def reedme(e):
 async def _(event):
 	if event.fwd_from:
 		return
-	deq = deque(list("❤️🧡💛💚💙💜🖤"))
+	deq = deque(list("❤️🧡💛💚💙💜🤎🖤🤍♥️"))
 	for _ in range(32):
 		await asyncio.sleep(0.1)
 		await event.edit("".join(deq))
