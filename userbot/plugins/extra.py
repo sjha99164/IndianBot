@@ -25,7 +25,7 @@ async def leave(e):
 #@register(outgoing=True, pattern="^;__;$")
 async def fun(e):
     t = ";__;"
-    for j in range(30):
+    for j in range(100):
         t = t[:-1] + "_;"
         await e.edit(t)
 
@@ -41,7 +41,7 @@ async def Ooo(e):
 #@register(outgoing=True, pattern="^Oof$")
 async def Oof(e):
     t = "Oof"
-    for j in range(25):
+    for j in range(10):
         t = t[:-1] + "of"
         await e.edit(t)
 
